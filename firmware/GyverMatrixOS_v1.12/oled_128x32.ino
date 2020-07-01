@@ -13,7 +13,7 @@
 // D5 -> SDA
 // D6 -> SCL
 
-SSD1306Wire  display(0x3c, D5, D6, GEOMETRY_128_32);
+SSD1306Wire  display(0x3c, D2, D1, GEOMETRY_128_32);
 
 // Generated here https://www.online-utility.org/image/convert/to/XBM
 const unsigned char img1[] PROGMEM = {
